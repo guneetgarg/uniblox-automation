@@ -25,6 +25,7 @@ public class CommonUtils {
                     driver = new ChromeDriver(chromeOptions);
                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
                     driver.get("https://d3j8nuwp74eyml.cloudfront.net/5U5PU/S2xbn/UGFnZV8xMg==");
+                    driver.manage().window().maximize();
                     break;
                 default:
                     break;
